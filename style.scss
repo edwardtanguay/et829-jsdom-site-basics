@@ -1,0 +1,14 @@
+$mainColor: orange;
+
+body {
+  font-family: sans-serif;
+  padding: 1rem 2rem;
+
+  h1 {
+    color: $mainColor;
+  }
+
+  h2 {
+    color: $mainColor;
+  }
+}
