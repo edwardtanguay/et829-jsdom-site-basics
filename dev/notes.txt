@@ -1,6 +1,7 @@
 - x minimize site
 - x create array todos, array of todo objects
-- .. show todos on page (with innerHTML)
+- x show todos on page (with innerHTML)
+- .. put todos in a component
 - show todos on page (with createElement, appendChild)
 - build form: add todo
 	- when button click, add todo to "todos"

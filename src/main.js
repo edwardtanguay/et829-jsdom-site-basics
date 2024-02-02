@@ -1,4 +1,5 @@
 import { Section } from './components/Section';
+import { TodosInnerHtml } from './components/TodosInnerHtml';
 import './style.scss';
 
 const title = 'Our Todo List';
@@ -29,10 +30,6 @@ document.querySelector('#app').innerHTML = /*html*/ `
   ${Section("Third Section", "More information about the todo list.")}
   
   <h2 class="mt-6 text-2xl mb-4">Todos</h2>
-  ${todos.map(todo => {
-    return `
-    <div class="bg-slate-400 mb-2 p-2 rounded">${todo.text} - ${todo.finished ? 'FINISHED' : '(doing...)'}</div>
-    `
-  }).join('')}
+  ${TodosInnerHtml(todos)}
 </main>
 `;
