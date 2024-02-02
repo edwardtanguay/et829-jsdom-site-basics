@@ -1,1 +1,11 @@
-- .. minimize site
+- x minimize site
+- .. create array todos, array of todo objects
+- show todos on page
+- build form: add todo
+	- when button click, add todo to "todos"
+		- input element
+		- onClick
+		- onChange: show number of characters in todo
+			- e.target.value
+- delete button
+- finished button
